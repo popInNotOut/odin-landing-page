@@ -1,0 +1,41 @@
+/* START OF TYPE SELECTORS */
+body {
+    font-family: Roboto, 'Open Sans', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+/* END OF TYPE SELECTORS */
+
+
+
+
+
+/* START OF CLASSES */
+.header {
+    height: 72px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header .left {
+    font-size: 24px;
+    font-weight: 900;
+}
+/* END OF CLASSES */
