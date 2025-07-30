@@ -2,21 +2,12 @@
 body {
     font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
-    min-height: 100vh;
 }
 
 a {
     text-decoration: none;
     color: white;
     font-size: 18px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 30px;
 }
 /* END OF TYPE SELECTORS */
 
@@ -26,45 +17,53 @@ ul {
 
 /* START OF CLASSES */
 .header {
-    height: 600px;
+    height: 30px;
     background: #1F2937;
     color: white;
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding: 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 100px 0px;
 }
 
-.header .left {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    width: 400px;
-}
-
-.header .left .header-logo {
+.header .header-logo {
     font-size: 24px;
     font-weight: 900;
 }
 
-.header .left .bottom-part {
+.header .header-link-container {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
 }
 
-.header .left .bottom-part .main-text {
+.card-1 {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px 40px 0px;
+}
+
+.card-1 .left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 20%;
+}
+
+.card-1 .left .main-text {
     font-size: 48px;
     font-weight: 900; 
 }
 
-.header .left .bottom-part .secondary-text {
-    color: white;
+.card-1 .secondary-text {
     font-size: 18px;
 }
 
-.header .left .bottom-part .button-container .sign-up-button {
+.card-1 .button-container .sign-up-button {
     border: none;
     border-radius: 8px;
     background: #3882F6;
@@ -74,25 +73,8 @@ ul {
     font-weight: 900;
 }
 
-.header .right {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    width: 600px;
-}
-
-.header .right .header-link-container {
-    display: flex;
-    justify-content: right;
-}
-
-.header .right .bottom-part {
-    height: 400px;
-}
-
-.header .right .bottom-part .cat-image {
-    height: 100%;
-    width: 100%;
+.card-1 .cat-image {
+    max-width: 25%;
 }
 
 
